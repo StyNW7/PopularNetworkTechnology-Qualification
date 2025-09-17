@@ -1,9 +1,13 @@
-$initials = "NW"
+# Setup the Variables
+
+$initials = "nw"
 $generation = "251"
 
 $resourceGroupName = "linkasa-rg"
 $aksClusterName = "linkasa-aks-cluster"
 $acrName = "qualif" + $initials.ToLower() + $generation
+
+# Starting the ACR
 
 Write-Host "--- Starting Azure & Docker Operations ---" -ForegroundColor Green
 

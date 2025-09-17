@@ -64,6 +64,6 @@ spec:
     spec:
       containers:
         - name: linkasa-frontend
-          image: qualifnw251.azurecr.io/linkasa-frontend:final
+          image: qualifnw251.azurecr.io/linkasa-frontend:v1
           ports:
             - containerPort: 80
