@@ -1,1 +1,1 @@
-# garuda-hacks-5.0-be
+# Backend - Post Training Popular Network Technology Qualification
